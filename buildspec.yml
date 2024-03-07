@@ -12,7 +12,7 @@ phases:
   post_build:
     commands:
     - echo "Entered the post-build phase"
-    - mv target/deploy/* /var/lib/tomcat9/webapps/
+    - mv target/* /var/lib/tomcat9/webapps/
 artifacts:
   files:
     - webapps/*
